@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# database
+taskmanager.db
+
+# env files
+.env
+
+# python cache
+__pycache__/
+*.pyc
+
+# vite build
+dist/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
