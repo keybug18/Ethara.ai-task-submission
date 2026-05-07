@@ -1,0 +1,5 @@
+[phases.build]
+cmds = ["npm install", "npm run build"]  # build the react app
+
+[start]
+cmd = "npx serve dist -l $PORT"  # serve the built files on Railway's port
